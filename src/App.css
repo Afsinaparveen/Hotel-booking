@@ -33,7 +33,7 @@
   padding: 10px;
   font-family: "Lexend";
   font-size: 16px;
-  color: lightgray;
+  color: white;
   line-height: 17px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -51,7 +51,7 @@ a {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   cursor: pointer;
-  color: lightgray;
+  color: white;
   text-decoration: none;
   font-weight: bold;
 }
@@ -94,7 +94,7 @@ body {
   line-height: 17px;
   letter-spacing: 0.05em;
   cursor: pointer;
-  color: lightgray;
+  color: white;
   font-weight: 600;
 }
 .banner-info > h4 {
@@ -102,7 +102,7 @@ body {
   font-family: "Lexend";
   font-size: 14px;
   font-weight: 400;
-  color: lightgray;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 0.25em;
   text-align: center;
@@ -111,4 +111,19 @@ body {
 .banner-info > h1 {
   color: #754400;
   text-shadow: -3px 1px 5px #fff;
+}
+.booking_div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ .svg-inline--fa {
+  color: white;
+  font-size: 20px;
+}
+h4{
+  color: white;
+}
+h2{
+  color: white;
 }
